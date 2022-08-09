@@ -112,52 +112,19 @@ p {
   color: black;
 }
 
-@media (max-width: 700px) {
-  body {
-    font-size: 1.5rem;
+@media (max-width: 600px){
+
+  *{
+    box-sizing: border-box;
   }
 
-  .wrapper {
+  body{
+    font-size: 1rem;
+  }
+  .wrapper{
     flex-direction: column;
-    max-width: 600px;
+    align-items: center;
+    min-width: 600px;
   }
 
-  .card-intro {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-  .main {
-    width: 100%;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    line-height: 40px;
-  }
-
-  p {
-    line-height: 22px;
-  }
-  .price {
-    width: 75%;
-  }
-
-  .main-price {
-    font-size: 2rem;
-  }
-
-  .discount-price {
-    font-size: 0.9rem;
-  }
-
-  .sub-main {
-    max-width: 100%;
-  }
 }
